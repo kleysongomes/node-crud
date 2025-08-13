@@ -1,0 +1,64 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+*.seed
+
+# Node.js diagnostic reports
+report.*.*.*.json
+
+# Coverage directories
+coverage/
+.nyc_output
+
+# Build caches and artifacts
+.cache/
+.rpt2_cache*/
+.rts2_cache*/
+dist/
+dist-ssr/
+build/Release
+.next/
+.nuxt/
+.vuepress/dist
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+typings/
+
+# Docker volumes and data
+postgres-data/
+
+# Environment files
+.env
+.env.test
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+*.swp
+
+# Miscellaneous
+.lock-wscript
+.lib-cov/
+.tern-port
+.dynamodb/
+.serverless/
+.fusebox/
+*.tgz
